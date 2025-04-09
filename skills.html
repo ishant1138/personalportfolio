@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skills - Ishant Jaswal</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome for Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="animations.css" />
+  </head>
+  <body>
+    <!-- Preloader -->
+    <div class="preloader">
+      <div class="spinner"></div>
+    </div>
+
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress"></div>
+
+    <!-- Sticky Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Ishant Jaswal</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="hobbies.html">Hobbies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="education.html">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="skills.html">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Skills</h2>
+        <div class="row">
+          <!-- Frontend Skills -->
+          <div class="col-md-4 mb-4">
+            <div class="card card-3d h-100 reveal">
+              <div class="card-body">
+                <h3 class="card-title text-center mb-4">
+                  <i class="fas fa-laptop-code me-2"></i>Frontend Development
+                </h3>
+                <div class="skill-bar mb-4">
+                  <div class="skill-name">HTML</div>
+                  <div class="skill-progress">
+                    <div class="progress-bar" data-progress="100"></div>
+                  </div>
+                </div>
+                <div class="skill-bar mb-4">
+                  <div class="skill-name">CSS</div>
+                  <div class="skill-progress">
+                    <div class="progress-bar" data-progress="100"></div>
+                  </div>
+                </div>
+                <div class="skill-bar mb-4">
+                  <div class="skill-name">JavaScript</div>
+                  <div class="skill-progress">
+                    <div class="progress-bar" data-progress="50"></div>
+                  </div>
+                </div>
+                <div class="skill-bar mb-4">
+                  <div class="skill-name">React</div>
+                  <div class="skill-progress">
+                    <div class="progress-bar" data-progress="0"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Backend Development -->
+          <div class="col-md-4 mb-4">
+            <div class="card card-3d h-100 reveal">
+              <div class="card-body">
+                <h3 class="card-title text-center mb-4">
+                  <i class="fas fa-server me-2"></i>Backend Development
+                </h3>
+                <div class="skill-bar mb-4">
+                  <div class="skill-name">Node.js</div>
+                  <div class="skill-progress">
+                    <div class="progress-bar" data-progress="90"></div>
+                  </div>
+                </div>
+                <div class="skill-bar mb-4">
+                  <div class="skill-name">SQL</div>
+                  <div class="skill-progress">
+                    <div class="progress-bar" data-progress="85"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tools & Others -->
+          <div class="col-md-4 mb-4">
+            <div class="card card-3d h-100 reveal">
+              <div class="card-body">
+                <h3 class="card-title text-center mb-4">
+                  <i class="fas fa-tools me-2"></i>Tools & Others
+                </h3>
+                <div class="skill-bar mb-4">
+                  <div class="skill-name">Git</div>
+                  <div class="skill-progress">
+                    <div class="progress-bar" data-progress="100"></div>
+                  </div>
+                </div>
+                <div class="skill-bar mb-4">
+                  <div class="skill-name">VS Code</div>
+                  <div class="skill-progress">
+                    <div class="progress-bar" data-progress="100"></div>
+                  </div>
+                </div>
+                <div class="skill-bar mb-4">
+                  <div class="skill-name">Bootstrap</div>
+                  <div class="skill-progress">
+                    <div class="progress-bar" data-progress="100"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+      <div class="container">
+        <p>&copy; 2025 Ishant Jaswal. All rights reserved.</p>
+        <div class="social-links">
+          <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" aria-label="Back to Top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ishant Jaswal - Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome for Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Typed.js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <!-- Particles.js -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="animations.css" />
+  </head>
+  <body>
+    <!-- Preloader -->
+    <div class="preloader">
+      <div class="spinner"></div>
+    </div>
+
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress"></div>
+
+    <!-- Sticky Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Ishant Jaswal</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="hobbies.html">Hobbies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="education.html">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="skills.html">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section
+      id="hero"
+      class="d-flex align-items-center justify-content-center text-center"
+    >
+      <div id="particles-js"></div>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 text-start">
+            <div class="open-box">
+              <h1 class="display-4 text-gradient">
+                <span class="typed-text"></span>
+                <span class="cursor">&nbsp;</span>
+              </h1>
+              <p class="lead slide-up delay-1">
+                Computer Science Student | Aspiring Software Developer
+              </p>
+              <p class="tagline slide-up delay-2">
+                "Turning ideas into reality through code."
+              </p>
+              <div class="hero-buttons">
+                <a
+                  href="Resume.pdf"
+                  class="btn btn-primary btn-hover scale-in delay-3"
+                  download
+                >
+                  <i class="fas fa-download icon-rotate fa-sm"></i> Download
+                  Resume
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 text-center">
+            <div class="custom-img float">
+              <img
+                src="Imagerightsection.png"
+                alt="Custom Image"
+                class="img-fluid hover-scale"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quick Links Section -->
+    <section class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card card-3d h-100 glass hover-lift">
+              <div class="card-body text-center">
+                <i class="fas fa-user fa-2x mb-3 icon-pulse"></i>
+                <h3 class="card-title">About Me</h3>
+                <p class="card-text">
+                  Learn more about my background, interests, and aspirations.
+                </p>
+                <a href="about.html" class="btn btn-primary btn-hover"
+                  >Read More</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card card-3d h-100 glass hover-lift">
+              <div class="card-body text-center">
+                <i class="fas fa-code fa-2x mb-3 icon-pulse"></i>
+                <h3 class="card-title">Projects</h3>
+                <p class="card-text">
+                  Explore my latest projects using HTML, CSS, and JavaScript.
+                </p>
+                <a href="projects.html" class="btn btn-primary btn-hover"
+                  >View Projects</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card card-3d h-100 glass hover-lift">
+              <div class="card-body text-center">
+                <i class="fas fa-envelope fa-2x mb-3 icon-pulse"></i>
+                <h3 class="card-title">Contact</h3>
+                <p class="card-text">
+                  Get in touch with me for collaborations or opportunities.
+                </p>
+                <a href="contact.html" class="btn btn-primary btn-hover"
+                  >Contact Me</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+      <div class="container">
+        <p class="fade-in">&copy; 2025 Ishant Jaswal. All rights reserved.</p>
+        <div class="social-links">
+          <a href="#" target="_blank" class="social-icon hover-scale"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a href="#" target="_blank" class="social-icon hover-scale"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a href="#" target="_blank" class="social-icon hover-scale"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" aria-label="Back to Top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+    <!-- Initialize Particles.js -->
+    <script>
+      particlesJS.load("particles-js", "particles.json", function () {
+        console.log("Particles.js loaded!");
+      });
+    </script>
+  </body>
+</html>
